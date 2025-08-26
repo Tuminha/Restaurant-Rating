@@ -105,6 +105,70 @@ The project evaluates models using:
 - **R-squared (R²)**: Proportion of variance explained by the model
 - **Cross-validation scores**: Assess model generalization
 
+## 📊 Project Progress
+
+### ✅ Completed Tasks
+
+1. **Set Up the Project** ✅
+   - Downloaded and loaded all 6 Yelp datasets
+   - Created comprehensive Jupyter notebook for analysis
+   - Set up proper data display options for large datasets
+
+2. **Explore the Datasets** ✅
+   - Loaded all datasets: business, review, user, checkin, tip, and photo data
+   - Analyzed data structure and dimensions
+   - Identified common features across datasets (`business_id`)
+   - Explored data types and basic statistics
+   - Found 188,593 businesses in the dataset
+
+### 🔄 In Progress Tasks
+
+3. **Merge the Datasets** 🔄
+   - Need to combine all datasets using `business_id` as the key
+   - Perform left joins to preserve all business data
+
+### 📋 Remaining Tasks
+
+4. **Prepare and Clean the Data**
+   - Remove unnecessary features (address, attributes, etc.)
+   - Handle missing values (replace NaN with 0)
+   - Focus on continuous and binary features for regression
+
+5. **Correlation Analysis and Feature Selection**
+   - Analyze correlations between features and Yelp ratings
+   - Identify most predictive features
+   - Create visualizations of key relationships
+
+6. **Split Data into Training and Testing Sets**
+   - Use train_test_split with 80/20 ratio
+   - Set random_state for reproducibility
+
+7. **Train the ML Model**
+   - Implement multiple linear regression
+   - Train on different feature subsets
+   - Compare model performance
+
+8. **Evaluate the Model**
+   - Calculate R² scores for training and testing data
+   - Analyze model coefficients
+   - Create prediction vs actual plots
+
+9. **Experiment with Potential Improvements**
+   - Test different feature combinations
+   - Optimize model parameters
+   - Compare multiple regression approaches
+
+10. **Share Your Model**
+    - Document findings and insights
+    - Create final predictions for sample restaurant
+    - Prepare project for portfolio submission
+
+## 🎯 Current Status
+
+**Progress: 2/10 tasks completed (20%)**
+
+The project is off to a strong start with comprehensive data exploration completed. The next major milestone is merging all datasets and beginning the data preparation phase.
+
 ## Expected Outcomes
 
 - A trained regression model capable of predicting restaurant ratings
