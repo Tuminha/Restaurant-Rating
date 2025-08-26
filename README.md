@@ -1,12 +1,48 @@
-# Restaurant Rating Prediction - Regression Cumulative Project
+# Restaurant Success Analytics: Decoding Yelp Ratings with Machine Learning
 
-## Project Overview
+**Author:** Francisco Barbosa  
+**GitHub:** [@Tuminha](https://github.com/Tuminha)  
+**Email:** cisco@periospot.com  
+**Twitter:** [@cisco_research](https://twitter.com/cisco_research)
+
+---
+
+## 🍽️ Project Overview
+
+The restaurant industry is more competitive than ever, with online reviews becoming the make-or-break factor for new establishments. As someone passionate about data science and the culinary world, I'm embarking on a mission to decode the secret ingredients of restaurant success on Yelp.
+
+**The Big Question:** *If I were to open my dream restaurant tomorrow, what factors should I prioritize to achieve the highest Yelp rating?*
 
 This project uses supervised machine learning models for regression to predict restaurant ratings. The goal is to build and evaluate various regression models to accurately forecast restaurant ratings based on available features such as location, cuisine type, price range, and other relevant characteristics.
 
-## Project Description
+## 🎯 What I'm Building
 
-As part of the Codecademy Data Science curriculum, this cumulative project demonstrates the application of regression techniques to solve a real-world prediction problem. The project involves data preprocessing, feature engineering, model selection, training, and evaluation to create an effective restaurant rating prediction system.
+Using real Yelp data and multiple linear regression, I'll uncover the key drivers behind restaurant ratings. This isn't just an academic exercise—it's a practical guide for anyone looking to understand what makes restaurants thrive in the digital age.
+
+**My Approach:**
+- 📊 **Data Exploration**: Deep dive into Yelp's comprehensive dataset
+- 🧹 **Data Preparation**: Clean and engineer features for optimal model performance  
+- 🤖 **Model Development**: Build and tune a multiple linear regression model
+- 💡 **Insight Generation**: Extract actionable recommendations for restaurant success
+
+## 📁 Dataset Overview
+
+I'm working with six rich datasets from Yelp, each offering unique insights into restaurant performance:
+
+* **`yelp_business.json`**: Core establishment data (location, attributes, categories)
+* **`yelp_review.json`**: Review metadata and sentiment indicators
+* **`yelp_user.json`**: User engagement and profile characteristics
+* **`yelp_checkin.json`**: Customer visit patterns and timing data
+* **`yelp_tip.json`**: Quick feedback and tip engagement metrics
+* **`yelp_photo.json`**: Visual content and photo engagement data
+
+## 🚀 Project Goals
+
+By the end of this analysis, I'll be able to answer:
+- Which restaurant attributes have the strongest correlation with high ratings?
+- How important are factors like location, cuisine type, and price range?
+- What role does customer engagement (photos, tips, check-ins) play in ratings?
+- Can I build a reliable model to predict restaurant success?
 
 ## Features
 
@@ -63,7 +99,18 @@ restaurant_rating/
    source codeacademy/bin/activate
    ```
 
-3. **Install additional dependencies (if needed):**
+3. **Download the Yelp datasets:**
+   - The Yelp datasets are not included in this repository due to file size limits
+   - Download the datasets from the [Codecademy project page](https://www.codecademy.com/learn/paths/data-science)
+   - Place the following files in your project directory:
+     - `yelp_business.json`
+     - `yelp_review.json`
+     - `yelp_user.json`
+     - `yelp_checkin.json`
+     - `yelp_tip.json`
+     - `yelp_photo.json`
+
+4. **Install additional dependencies (if needed):**
    ```bash
    pip install -r requirements.txt
    ```
@@ -195,3 +242,5 @@ This project is created for educational purposes as part of the Codecademy Data 
 ---
 
 **Note**: This project demonstrates practical application of supervised machine learning regression techniques for predicting restaurant ratings, combining data science fundamentals with real-world problem-solving.
+
+Let's dive into the data and start uncovering the patterns that separate 5-star establishments from the rest!
