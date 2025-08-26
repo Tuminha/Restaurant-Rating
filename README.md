@@ -168,23 +168,24 @@ The project evaluates models using:
    - Explored data types and basic statistics
    - Found 188,593 businesses in the dataset
 
+3. **Merge the Datasets** ✅
+   - Successfully combined all 6 datasets using `business_id` as the key
+   - Performed left joins to preserve all business data
+   - Created comprehensive merged dataset with all features
+
+4. **Prepare and Clean the Data** ✅
+   - Removed irrelevant features (address, attributes, business_id, etc.)
+   - Identified and handled missing values
+   - Focused on continuous and binary features suitable for regression
+   - Prepared clean dataset for machine learning analysis
+
 ### 🔄 In Progress Tasks
 
-3. **Merge the Datasets** 🔄
-   - Need to combine all datasets using `business_id` as the key
-   - Perform left joins to preserve all business data
+5. **Correlation Analysis and Feature Selection** 🔄
+   - Ready to analyze correlations between features and Yelp ratings
+   - Identify most predictive features for the model
 
 ### 📋 Remaining Tasks
-
-4. **Prepare and Clean the Data**
-   - Remove unnecessary features (address, attributes, etc.)
-   - Handle missing values (replace NaN with 0)
-   - Focus on continuous and binary features for regression
-
-5. **Correlation Analysis and Feature Selection**
-   - Analyze correlations between features and Yelp ratings
-   - Identify most predictive features
-   - Create visualizations of key relationships
 
 6. **Split Data into Training and Testing Sets**
    - Use train_test_split with 80/20 ratio
@@ -212,9 +213,9 @@ The project evaluates models using:
 
 ## 🎯 Current Status
 
-**Progress: 2/10 tasks completed (20%)**
+**Progress: 4/10 tasks completed (40%)**
 
-The project is off to a strong start with comprehensive data exploration completed. The next major milestone is merging all datasets and beginning the data preparation phase.
+Excellent progress! The data preparation phase is complete with all datasets successfully merged and cleaned. The project is now ready for correlation analysis and feature selection, which will inform the machine learning model development.
 
 ## Expected Outcomes
 
