@@ -70,14 +70,19 @@ By the end of this analysis, I'll be able to answer:
 
 ```
 restaurant_rating/
-├── README.md                 # Project documentation
-├── data/                     # Dataset files
-├── notebooks/                # Jupyter notebooks for analysis
-├── src/                      # Source code modules
-├── models/                   # Trained model files
-├── results/                  # Output files and visualizations
-├── requirements.txt          # Python dependencies
-└── codeacademy/             # Virtual environment
+├── README.md                           # Project documentation
+├── restaurant_rating_project.ipynb     # Main analysis notebook
+├── yelp_business.json                  # Business dataset
+├── yelp_review.json                    # Review dataset
+├── yelp_user.json                      # User dataset
+├── yelp_checkin.json                   # Check-in dataset
+├── yelp_tip.json                       # Tip dataset
+├── yelp_photo.json                     # Photo dataset
+├── yelp_data.json                      # Additional data
+├── yelp_regression.ipynb               # Codecademy template
+├── yelp_regression_solution.ipynb      # Codecademy solution
+├── .gitignore                          # Git ignore file
+└── codeacademy/                        # Virtual environment
 ```
 
 ## Getting Started
